@@ -10,6 +10,7 @@
  */
 
 #include "robot.h"
+#include <ctype.h>
 
 /**
  * robotPrintMessage

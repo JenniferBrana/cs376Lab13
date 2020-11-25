@@ -34,7 +34,24 @@ void robotPrintAscii(void)
   char* blank = "                              ";
   blank = blank +30;
   printf("\n\n"
-	 "UWR: Unidentified Wheeled Robot\n"
+	 "%s    Y_Y    \n"
+	 "%s   [&_&]   \n"
+	 "%s  /|___|\\ \n"
+	 "%s   d   b   \n",blank, blank, blank, blank);
+
+  blank = blank - 10;
+
+
+  printf("\n\n"
+	 "%s    Y_Y    \n"
+	 "%s   [&_&]   \n"
+	 "%s  /|___|\\ \n"
+	 "%s   d   b   \n",blank, blank, blank, blank);
+
+  blank = blank - 10;
+
+
+  printf("\n\n"
 	 "%s    Y_Y    \n"
 	 "%s   [&_&]   \n"
 	 "%s  /|___|\\ \n"
@@ -42,7 +59,6 @@ void robotPrintAscii(void)
 
   blank = blank - 10;
 }
-
 /**
  * dalekPrintAscii
  *
